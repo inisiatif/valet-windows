@@ -15,6 +15,8 @@ Valet is a Laravel development environment for Windows. No Vagrant, no `/etc/hos
 
 Laravel Valet configures your Windows to always run Nginx in the background when your machine starts. Then, using [Acrylic DNS](http://mayakron.altervista.org/wikibase/show.php?id=AcrylicHome), Valet proxies all requests on the `*.test` domain to point to sites installed on your local machine.
 
+> This is fork for internal purpose. this fork remove [Acrylic DNS](http://mayakron.altervista.org/wikibase/show.php?id=AcrylicHome) and install it separately. Use original packages to include Acrylic DNS.
+
 ## Documentation
 
 Before installation, make sure that no other programs such as Apache or Nginx are binding to your local machine's port 80. <br> Also make sure to open your preferred terminal (CMD, Git Bash, PowerShell, etc.) as Administrator. 
